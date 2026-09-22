@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sajid Ali — Cybersecurity student and aspiring SOC Analyst focused on security monitoring, incident investigation, SIEM, Windows logs, and network defense." />
+  <meta name="keywords" content="Sajid Ali, SOC Analyst, Cybersecurity, Blue Team, SIEM, Wazuh, Suricata, Windows Event Logs, Pakistan" />
+  <meta name="author" content="Sajid Ali" />
+  <title>Sajid Ali | SOC Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="cyber-bg" aria-hidden="true"></canvas>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-dot"></span>SAJID<span>ALI</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <div class="status-pill"><span></span> Open to SOC / Cybersecurity opportunities</div>
+        <p class="eyebrow">CYBERSECURITY • BLUE TEAM • SOC</p>
+        <h1>Sajid Ali</h1>
+        <h2>I investigate <span id="typed-text"></span><span class="cursor">|</span></h2>
+        <p class="hero-text">Cybersecurity student at Air University building hands-on capability in security monitoring, log analysis, incident investigation, endpoint security, and network defense.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View SOC Projects</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/sajid-cybersecurity/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="terminal-card reveal">
+        <div class="terminal-top"><div class="dots"><i></i><i></i><i></i></div><span>soc-analyst@sajid:~</span></div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p><p class="output">Sajid Ali — Aspiring SOC Analyst</p>
+          <p><span class="prompt">$</span> cat focus.txt</p><p class="output">SIEM • Log Analysis • Incident Response</p>
+          <p><span class="prompt">$</span> cat stack.txt</p><p class="output">Wazuh • Suricata • Wireshark • Windows Logs</p>
+          <p><span class="prompt">$</span> echo $GOAL</p><p class="output accent">Detect → Investigate → Respond</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Building a SOC-first cybersecurity profile.</h2></div>
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <p>I am a BS Cybersecurity student at Air University with practical exposure to Windows endpoint security auditing, event-log analysis, IOC identification, firewall verification, network monitoring, and secure network administration.</p>
+          <p>My current focus is turning that foundation into strong Security Operations skills through hands-on labs, detection projects, and documented investigations.</p>
+        </div>
+        <div class="skills-grid reveal">
+          <span>Security Operations</span><span>Log Analysis</span><span>Incident Response</span><span>Windows Event Logs</span><span>Endpoint Security</span><span>Network Security</span><span>Wazuh</span><span>Suricata</span><span>Wireshark</span><span>MITRE ATT&CK</span><span>Python</span><span>Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">02 / EXPERIENCE</p><h2>Relevant security experience.</h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card">
+          <div class="timeline-meta"><span>Jul 2026 — Aug 2026</span><span>Kamra, Pakistan</span></div>
+          <h3>Cybersecurity Intern — Network Operations & Security</h3><h4>NASTP / ADIC Kamra</h4>
+          <ul><li>Performed Windows endpoint security audits and reviewed suspicious system activity.</li><li>Analyzed Windows Security/Event logs for authentication, process activity, privilege changes, and service installation.</li><li>Practiced IOC identification, persistence checking, false-positive validation, and escalation procedures.</li><li>Reviewed firewall rules, antivirus/EDR status, running processes, and active network connections.</li><li>Worked with network monitoring, TCP/IP, VLANs, SSH, switch security, and troubleshooting.</li></ul>
+        </div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card">
+          <div class="timeline-meta"><span>2026</span><span>Remote</span></div>
+          <h3>Cyber Security Intern</h3><h4>CodeAlpha</h4>
+          <p>Building practical cybersecurity projects with emphasis on network monitoring, intrusion detection, alert analysis, and security documentation.</p>
+        </div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card">
+          <div class="timeline-meta"><span>Oct 2026 — Nov 2026</span><span>Remote</span></div>
+          <h3>Cyber Security Intern — Selected</h3><h4>Arch Technologies</h4>
+          <p>Selected for an 8-week remote Cyber Security Internship and Training Program focused on hands-on cybersecurity learning.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">03 / PROJECTS</p><h2>Hands-on security work.</h2></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-index">01</div><h3>Network Intrusion Detection System</h3><p>Suricata-based IDS project with custom ICMP/HTTP detection rules, EVE JSON analysis, alert triage, and containment workflow.</p><div class="tags"><span>Suricata</span><span>IDS</span><span>EVE JSON</span><span>Blue Team</span></div><a href="#" class="project-link github-placeholder">GitHub repo coming soon →</a></article>
+        <article class="project-card reveal"><div class="project-index">02</div><h3>SOC Account Compromise Investigation</h3><p>Windows authentication investigation using Wazuh, Event IDs 4625/4624/4688, Sysmon telemetry, MITRE ATT&CK mapping, and incident documentation.</p><div class="tags"><span>Wazuh</span><span>Sysmon</span><span>Windows Logs</span><span>MITRE</span></div><a href="#" class="project-link github-placeholder">GitHub repo coming soon →</a></article>
+        <article class="project-card reveal"><div class="project-index">03</div><h3>Network Traffic Analysis</h3><p>Captured and analyzed network traffic with Wireshark to identify protocols, sessions, anomalies, and suspicious communications.</p><div class="tags"><span>Wireshark</span><span>TCP/IP</span><span>Packet Analysis</span></div><a href="#" class="project-link github-placeholder">Add GitHub link →</a></article>
+        <article class="project-card reveal"><div class="project-index">04</div><h3>Vulnerability Assessment Lab</h3><p>Performed scanning and analysis against a controlled vulnerable environment using Nmap and Nikto, then documented remediation recommendations.</p><div class="tags"><span>Nmap</span><span>Nikto</span><span>Vulnerability Assessment</span></div><a href="#" class="project-link github-placeholder">Add GitHub link →</a></article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">04 / CREDENTIALS</p><h2>Training and certifications.</h2></div>
+      <div class="cert-grid">
+        <div class="cert-card reveal"><strong>Fortinet</strong><span>NSE 2: Cybersecurity</span></div><div class="cert-card reveal"><strong>Fortinet</strong><span>NSE 1: Cybersecurity</span></div><div class="cert-card reveal"><strong>Google Cloud</strong><span>Google Security Operations — Deep Dive</span></div><div class="cert-card reveal"><strong>Cisco Networking Academy</strong><span>Introduction to Cybersecurity</span></div><div class="cert-card reveal"><strong>Centri</strong><span>Introduction to Penetration Testing</span></div><div class="cert-card reveal"><strong>Red Team Leaders</strong><span>Certified Cybersecurity Educator Professional (CCEP)</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="contact-card reveal"><p class="eyebrow">05 / CONTACT</p><h2>Open to SOC Analyst, Junior Security Analyst, and Cybersecurity Internship opportunities.</h2><p>If your team needs someone who can learn quickly, investigate carefully, and document clearly, let's connect.</p>
+        <div class="contact-actions"><a class="btn primary" href="mailto:hafizsajidali647@gmail.com">Email Me</a><a class="btn secondary" href="https://www.linkedin.com/in/sajid-cybersecurity/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="btn secondary" id="github-link" href="#" target="_blank" rel="noopener">GitHub ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="container footer"><span>© <span id="year"></span> Sajid Ali</span><span>Built for Security Operations.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
